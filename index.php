@@ -47,11 +47,20 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
         </div>
         <div class="modal-body">
-          <form action="" method="post"></form>
+          <form action="" method="post">
+            <div class="form-group">
+              <small>Name</small>
+              <input type="text" class="form-control" name="name">
+            </div>
+            <div class="form-group">
+              <small>Email</small>
+              <input type="text" class="form-control" name="email">
+            </div>
+          </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-          <button type="button" class="btn btn-primary">Сохранить изменения</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save</button>
         </div>
       </div>
     </div>
